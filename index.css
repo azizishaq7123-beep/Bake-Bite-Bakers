@@ -1,0 +1,45 @@
+.btnn:hover{
+  background-color: red;
+color: red;
+}
+
+
+
+.card-hover {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.btn-maroon {
+   transition: 0.3s ease;
+}
+
+.btn-maroon:hover {
+    background-color: mediumvioletred;
+    color: white;
+    transform: scale(1);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
